@@ -185,3 +185,83 @@
 .socialMedia-logo:hover path {
   fill: hsl(171, 66%, 44%);
 }
+@media screen and (max-width: 426px) {
+  .background-image {
+    background-image: url("/images/bg-header-mobile.png");
+    height: 600px;
+  }
+  .container {
+    width: 400px;
+  }
+  .big-title {
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-style {
+    padding: 21px 134px;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image-computer {
+    width: 400px;
+    height: 305px;
+  }
+
+  .devices-image {
+    width: 400px;
+    height: 270px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .logo-google {
+    margin-bottom: 80px;
+  }
+  .logo-ibm {
+    margin-bottom: 80px;
+  }
+  .logo-microsoft {
+    margin-bottom: 80px;
+  }
+  .logo-hp {
+    margin-bottom: 80px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .logo-footer {
+    margin-top: 20px;
+  }
+  .links-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .links-footer ul li {
+    margin-bottom: 25px;
+  }
+  .logo-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .socialMedia-section {
+    margin-top: 25px;
+  }
+}
