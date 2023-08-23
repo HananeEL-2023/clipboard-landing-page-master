@@ -53,9 +53,15 @@
   background-color: hsl(171, 66%, 44%);
   box-shadow: 0px 1px 7px hsl(171, 66%, 44%);
 }
+.button-color1:hover {
+  background-color: hsla(171, 66%, 44%, 0.8);
+}
 .button-color2 {
   background-color: hsl(233, 100%, 69%);
   box-shadow: 0px 1px 7px hsl(233, 100%, 69%);
+}
+.button-color2:hover {
+  background-color: hsla(233, 100%, 69%, 0.8);
 }
 .section1 {
   display: flex;
