@@ -23,7 +23,7 @@
   height: 70px;
 }
 .big-space {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .color-title {
   color: hsl(210, 10%, 33%);
@@ -93,15 +93,30 @@
 }
 .section2 {
   display: flex;
-  width: 600px;
+  width: 800px;
   align-items: center;
   margin: 0 auto;
   justify-content: center;
   text-align: center;
 }
+.section2 div {
+  margin-right: 50px;
+}
+.blacklist-icon {
+  width: 34px;
+  height: 30px;
+}
+.snippet-icon {
+  width: 26px;
+  height: 22px;
+}
+.preview-icon {
+  width: 40px;
+  height: 22px;
+}
 .section3 {
   display: flex;
-  margin: 0 auto;
+  margin: 80px auto;
   width: 800px;
   justify-content: center;
   align-items: center;
