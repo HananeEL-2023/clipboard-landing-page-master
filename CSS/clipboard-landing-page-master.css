@@ -185,13 +185,13 @@
 .socialMedia-logo:hover path {
   fill: hsl(171, 66%, 44%);
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 376px) {
   .background-image {
     background-image: url("/images/bg-header-mobile.png");
     height: 600px;
   }
   .container {
-    width: 400px;
+    width: 340px;
   }
   .big-title {
     text-align: center;
@@ -201,7 +201,7 @@
     flex-direction: column;
   }
   .button-style {
-    padding: 21px 134px;
+    padding: 20px 100px;
   }
   .section1 {
     display: flex;
@@ -210,24 +210,24 @@
     text-align: center;
   }
   .image-computer {
-    width: 400px;
-    height: 305px;
+    width: 340px;
+    height: 258px;
   }
 
   .devices-image {
-    width: 400px;
-    height: 270px;
+    width: 340px;
+    height: 222px;
   }
 
   .section2 {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 340px;
   }
   .section3 {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 340px;
   }
   .logo-google {
     margin-bottom: 80px;
@@ -248,7 +248,7 @@
     height: auto;
   }
   .logo-footer {
-    margin-top: 20px;
+    margin: 20px 0px;
   }
   .links-footer {
     display: flex;
