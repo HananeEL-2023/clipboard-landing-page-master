@@ -235,6 +235,17 @@
     width: 700px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 950px;
+  }
+  .section2 {
+    width: 950px;
+  }
+  .links-footer ul li {
+    margin-right: 120px;
+  }
+}
 /* @media screen and (max-width: 376px) {
   .background-image {
     background-image: url("/images/bg-header-mobile.png");
