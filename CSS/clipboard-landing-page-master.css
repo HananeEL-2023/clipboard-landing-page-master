@@ -140,7 +140,6 @@
 }
 .footer {
   background-color: hsla(201, 11%, 66%, 0.1);
-  height: 140px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -177,7 +176,57 @@
 .socialMedia-logo:hover path {
   fill: hsl(171, 66%, 44%);
 }
-@media screen and (max-width: 376px) {
+
+@media screen and (min-width: 640px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 25px;
+  }
+  .section1-options {
+    margin: 0;
+  }
+  .devices-image {
+    width: 620px;
+    height: 389px;
+  }
+  .section1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2 {
+    width: 600px;
+  }
+  .section2 div {
+    margin-right: 12px;
+  }
+  .section3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section3 img {
+    margin-right: 40px;
+  }
+  .logo-hp {
+    margin-top: 50px;
+  }
+  .logo-vector-graphics {
+    margin-top: 50px;
+  }
+  .footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .links-footer {
+    margin: 25px 0px;
+  }
+}
+/* @media screen and (max-width: 376px) {
   .background-image {
     background-image: url("/images/bg-header-mobile.png");
     height: 600px;
@@ -253,4 +302,4 @@
   .socialMedia-section {
     margin-top: 25px;
   }
-}
+} */
