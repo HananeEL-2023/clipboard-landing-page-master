@@ -120,21 +120,11 @@
   justify-content: center;
   align-items: center;
 }
-.logo-google {
-  height: 50px;
+.section3 img:not(:last-child) {
   margin-right: 80px;
 }
-.logo-ibm {
-  height: 50px;
-  margin-right: 80px;
-}
-.logo-microsoft {
+.section3 img {
   height: 40px;
-  margin-right: 80px;
-}
-.logo-hp {
-  height: 50px;
-  margin-right: 80px;
 }
 .logo-vector-graphics {
   height: 30px;
@@ -177,4 +167,33 @@
 }
 .socialMedia-logo:hover path {
   fill: hsl(171, 66%, 44%);
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: auto;
+    padding: 0 50px;
+  }
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .section2 {
+    width: auto;
+    padding: 0 50px;
+  }
+  .section3 {
+    width: auto;
+    padding: 0 50px;
+  }
+  .section3 img:not(:last-child) {
+    margin-right: 30px;
+  }
+  .section3 img {
+    height: 30px;
+  }
+  .image-computer {
+    width: 618px;
+    height: 470px;
+  }
 }
