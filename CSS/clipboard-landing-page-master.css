@@ -178,3 +178,24 @@
 .socialMedia-logo:hover path {
   fill: hsl(171, 66%, 44%);
 }
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 760px;
+  }
+  .image-computer {
+    width: 617px;
+    height: 405px;
+  }
+  .section2 {
+    width: 760px;
+  }
+  .section3 {
+    flex-wrap: wrap;
+  }
+  .logo-vector-graphics {
+    margin-top: 30px;
+  }
+  .logo-hp {
+    margin-top: 30px;
+  }
+}
