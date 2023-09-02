@@ -192,3 +192,29 @@
     height: 30px;
   }
 }
+@media screen and (max-width: 768px) {
+  .container {
+    text-align: center;
+    padding: 30px 50px;
+  }
+  .section2 {
+    flex-direction: column;
+  }
+  .section2 div {
+    margin-right: 0;
+  }
+  .section3 img:not(:last-child) {
+    margin-right: 20px;
+    padding: 0 2px;
+  }
+  .devices-image {
+    height: 390px;
+    padding: 0 10px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .links-footer {
+    margin: 25px;
+  }
+}
